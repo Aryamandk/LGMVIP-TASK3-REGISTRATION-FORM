@@ -1,0 +1,78 @@
+/* General styles */
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 20px;
+  }
+  
+  #student-enrollment-form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 5px;
+	width: 500px;
+	margin: 0 auto;
+  }
+  
+  h1, h2 {
+	text-align: center;
+	margin-bottom: 15px;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+  }
+  
+  button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 10px;
+  }
+  
+  #clear-button {
+	background-color: #f44336;
+  }
+  
+  /* Table styles */
+  table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+  }
+  
+  /* Additional styling based on the image */
+  
+  #registration-form > button { /* Style both buttons together */
+	float: right;
+  }
+  
+  label {
+	font-weight: bold;
+  }
+  
+  #enrolled-students {
+	margin-top: 15px;
+  }
+  
